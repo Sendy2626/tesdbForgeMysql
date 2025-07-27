@@ -1,0 +1,9 @@
+﻿CREATE TABLE `students` (
+  `ID` INT DEFAULT NULL,
+  `first_name` VARCHAR(255) DEFAULT NULL,
+  `last_name` VARCHAR(255) DEFAULT NULL,
+  `date_of_birth` DATE DEFAULT NULL
+)
+ENGINE = INNODB,
+CHARACTER SET utf8mb4,
+COLLATE utf8mb4_0900_ai_ci;
